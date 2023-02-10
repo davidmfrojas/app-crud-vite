@@ -1,0 +1,37 @@
+.modal-container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;/*todo el ancho de la pantalla*/
+    height: 100vh;/*todo el alto de la pantalla*/
+    display: flex;/*flexible*/
+    justify-content: center;
+    align-items: center;/*flwxible y alineado al centro, centra en la pantalla verticalmente*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hide-modal{
+    display: none !important;
+}
+
+.modal-dialog{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 5px 15px rgba(255,255,255,0.2);
+}
+
+form{
+    display: flex;/*flexible*/
+    flex-direction: column;/*flexible y con direcion en columna, se muestra con una sola columna y con varias filas los controles*/
+    align-items: start;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+span, label{
+    color: black;
+}

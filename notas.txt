@@ -1,0 +1,16 @@
+Recuerde iniciar el server en una consola con 
+npm run server
+
+por id
+http://localhost:3001/users/1
+
+paginación
+http://localhost:3001/users?_page=1
+
+con el server json-server se puede hacer operaciones crud al archivo json
+
+y en otra consola abrir el sitio
+
+npm run dev
+
+puede agregar varias terminales a visual studio code
